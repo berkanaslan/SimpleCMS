@@ -1,0 +1,151 @@
+.kapsayici {
+	height:%100;
+	width:1340px;
+	margin:0 auto;
+}
+
+body {
+	background-color:#232323;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:15px;
+	color:#FFF;
+}
+
+.ustdiv {
+	height:221px;
+	width:%100;
+	margin:0 auto;
+	background-image:url(../imgs/ustresim.jpg);
+	background-size:cover;
+	margin-bottom:20px;
+	border-radius:30px;
+}
+
+.soldivkapsayici
+{
+	float:left;
+	height:230px;
+	width:190px;
+	margin-right:10px;
+}
+
+.soldiv {
+	background-image:url(../imgs/solmenu.png);
+	margin:0 auto;
+	height:230px;
+	width:200px;	
+	float:left;
+	position:fixed;
+}
+
+
+.ortadiv {
+	margin:0 auto;
+	height:%100;
+	width:808px;
+	padding: 15px 15px 15px 15px;
+	float:left;
+	border-radius:15px;
+	background-color:#202020;
+}
+
+.sollink { 
+
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.sollink:hover {
+	
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:18px;
+	color:#ffff00;
+}
+
+
+.sagdiv { 
+	margin:auto;
+	height:%100;	
+	margin-left:10px;
+	width:280px;
+	float:left;
+}
+
+
+
+.altdiv {
+	height:100px;
+	width:400px;
+	margin:auto;
+	clear:both;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:12px;
+	border-radius:30px;
+}
+
+.baslik {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:20px;
+	color:#ffff00;
+	margin:0 auto;
+}
+
+.yazidiv {
+	height:%100;
+	width:577px;
+	margin-top:5px;
+	padding: 10px 10px 10px 10px;
+	border-radius:10px;
+	background-image:url(../imgs/orta.png);
+	float:left;
+	margin:auto;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.resimdiv img {	
+	height:200px;
+	width:200px;
+	margin-top:5px;
+	margin:auto;
+	border-radius:10px;
+	margin-left:10px;
+	max-width:200px;
+	max-height:200px;
+	float:left;
+}
+
+.altreklam {
+	margin-left:70px;
+	height:60px;
+	width:468px;
+	background-image:url(../imgs/reklam.gif);
+	float:left;	
+	border-radius:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.sayfadiv {
+	margin:0 auto;
+	height:22px;
+	border-radius:10px;
+	padding: 2px 0px 0px 0px;
+	width:%100;
+	margin:0 auto;
+	text-align:center;
+	background-color:#191919;
+}
+
+.sayfalink {
+	text-decoration:none;
+	color:white;
+}
+
+.sayfalink:hover {
+	text-decoration:underline;
+}
