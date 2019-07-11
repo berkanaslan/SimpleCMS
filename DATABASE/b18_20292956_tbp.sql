@@ -41,17 +41,11 @@ CREATE TABLE IF NOT EXISTS `anasayfa` (
 --
 
 INSERT INTO `anasayfa` (`no`, `baslik`, `yazi`, `resim`, `tarih`) VALUES
-(41, 'Selam', 'Eray burayÄ± ziyaret etti.', 'ryok.png', '2017-06-26'),
-(27, 'SELAM', 'GELECEKTEN YAZIYORUM DÃœNYA PATLICAK REZ', '6a3ad5c44a49c27f825558879db856f8_poker-face-meme-meme-poker-face_480-743.jpeg', '0000-00-00'),
-(28, 'Facebook grup admini was here.', 'Facebook grup admini was here.\r\n', 'ryok.png', '0000-00-00'),
 (2, '2. GiriÅŸ Metni', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'logo.jpg', '2017-06-25'),
 (3, '3. GiriÅŸ Metni', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'yuklemedeneme.jpg', '2017-06-25'),
 (17, 'Panel Ã¼zerinden dÃ¼zenleme.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- ArtÄ±k panel Ã¼zerinden post dÃ¼zenleme iÅŸlemi yapÄ±lÄ±yor.', 'photo.jpg', '2017-06-25'),
 (18, 'Sayfalama Ä°ÅŸlemi', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- ArtÄ±k her sayfada sadece 1post gÃ¶zÃ¼kecek. Eski postlar otomatik olarak sayfalaÅŸtÄ±rÄ±lacak.', 'photo.jpg', '2017-06-26'),
-(20, 'Panel BazlÄ± Tarih Denemesi', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- ArtÄ±k postlara tarih atanabiliyor.', 'icon_512x5122x.png', '2017-06-26'),
-(35, 'Herkese Selam Sana Hasret', 'Hello world!', '_n.jpg', '2017-05-31'),
-(29, 'BETA 1 THETA 0', 'fffff test BETA BETA BETA', 'ryok.png', '0000-00-00'),
-(30, 'Beta vs. Theta', 'Beta vs. Theta YapÄ±lmasÄ±nÄ± Can-Ä± GÃ¶nÃ¼lden Ä°stiyoruz, TBP Ciler! Zaten yaptÄ±lar ama tekrar yapÄ±lÄ±rsa Kesinlikle Beta AlÄ±r Ä°nanÄ±yoruz. Bal Yanak, YÃ¼rÃ¼ BakalÄ±m!', 'ryok.png', '0000-00-00');
+(20, 'Panel BazlÄ± Tarih Denemesi', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -- ArtÄ±k postlara tarih atanabiliyor.', 'icon_512x5122x.png', '2017-06-26');
 
 -- --------------------------------------------------------
 
@@ -73,12 +67,8 @@ CREATE TABLE IF NOT EXISTS `ziyaretcidefteri` (
 
 INSERT INTO `ziyaretcidefteri` (`no`, `adsoyad`, `mesaj`, `email`) VALUES
 (1, 'Berkan Aslan', 'Ziyaretçi mesajı deneme.', 'aslaanberkan@gmail.com'),
-(5, 'Berkan A.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute.', 'aslaanberkan@gmail.com'),
-(8, 'tt', 'eqeqwewq', 'tt'),
-(9, 'Styx', 'Beta alÄ±r rez fff', ''),
-(10, 'Ã§aÄŸatay esen', 'ellerinize saÄŸlÄ±k sÃ¼per bir site demo haliyle efsane olmuÅŸ ', 'rwest1905@gmail.com'),
-(11, 'vuhuuu', 'olum siteÃ§ok gÃ¼zel kesin Ã§alÄ±ntÄ±', 'fatih5561@gmail.com'),
-(12, '', 'Hacked by johnny sins', '');
+(5, 'Berkan A.', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute.', 'aslaanberkan@gmail.com');
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
