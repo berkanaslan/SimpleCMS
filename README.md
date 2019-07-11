@@ -11,6 +11,7 @@ $sifre="veritabanına izinleri olan kullanıcı şifresi";
 $veritabani="Veritabanı adı"; //"DATABASE" klasörü içerisindeki dosya, b18_20292956_tbp isminde bir veritabanı oluşturacaktır.
 
 DEMO SİTE: http://tbpdemo.byethost18.com
+---------------
 Panel bilgileri:
 ----------------
 /panel.php;
